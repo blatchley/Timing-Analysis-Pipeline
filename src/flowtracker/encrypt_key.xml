@@ -1,0 +1,21 @@
+<functions>
+    <sources>
+        <function>
+            <name>crypto_aead_encrypt</name>
+            <return>false</return>
+            <public>
+                <parameter>c</parameter>
+                <parameter>clen</parameter>
+                <parameter>m</parameter>
+                <parameter>mlen</parameter>
+                <parameter>ad</parameter>
+                <parameter>adlen</parameter>
+                <parameter>nsec</parameter>
+                <parameter>npub</parameter>
+            </public>
+            <secret>
+                <parameter>k</parameter>       <!--Secret key-->
+            </secret>
+        </function>
+    </sources>
+</functions>

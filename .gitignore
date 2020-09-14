@@ -1,0 +1,25 @@
+# Exclude compiled files
+*
+!*.*
+!*/
+
+*.so
+*.so.*
+*.o
+*.bc
+*.rbc
+
+# Include makefiles
+!makefile
+
+# Ignore files downloaded by scripts
+candidates/
+
+# Ignore tmp files
+tmp/
+
+# Exclude test files
+test/
+
+# Exclude generated reports
+out/
