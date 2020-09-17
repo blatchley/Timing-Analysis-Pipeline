@@ -76,13 +76,10 @@ $ docker run --entrypoint=/bin/bash blatchley/ct-analysis:latest
 Currently there are not any build and execute scripts for the different tools, so if you want to play around with the tools you have to manually build your source code with them.
 
 ## Tools
-Currently the Docker image and pipeline includes three constant time analysis tools. In the following sections you can read more about what the tools does, the output, pros and cons.
+Currently the Docker image and pipeline includes three constant time analysis tools.
 
-### dudect
-wip
-### ctgrind
-wip
-### flowtracker
-wip
-## Contributing
-wip
+DudeCT
+
+CTGrind
+
+FlowTracker
