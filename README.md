@@ -78,8 +78,8 @@ Currently there are not any build and execute scripts for the different tools, s
 ## Tools
 Currently the Docker image and pipeline includes three constant time analysis tools.
 
-DudeCT
+DudeCT: https://github.com/oreparaz/dudect
 
-CTGrind
+CTGrind: https://github.com/agl/ctgrind
 
 FlowTracker
